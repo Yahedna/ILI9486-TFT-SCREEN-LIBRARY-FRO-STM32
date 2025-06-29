@@ -13,14 +13,14 @@ This repository contains a custom low-level driver implementation for the **ILI9
 - ✅ Tested on STM32F4 series
 
 - ## 📁 Directory Structure
-
 ILI9486_STM32/
 ├── Src/
-│ └── ili9486.c # Main driver source file (contains LCD_Init)
+│   └── ili9486.c        # Main driver source file (contains LCD_Init)
 ├── Inc/
-│ ├── ili9486.h # Driver header file
-│ └── fonts/ 
-
+│   ├── ili9486.h        # Driver header file
+│   └── fonts/           # Font bitmaps for text rendering
+│       └── font.h       # Example font file
+└── README.md            # Project documentation
 
 ## 🧰 GPIO Configuration
 
